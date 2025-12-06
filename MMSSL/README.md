@@ -1,9 +1,13 @@
+Note: 在解读源码过程中发现，代码与论文公式不符，上传仅释放本地存储空间
+![](./问题描述.jpg)
+
+
 # MMSSL: Multi-Modal Self-Supervised Learning for Recommendation
 
 PyTorch implementation for WWW 2023 paper [Multi-Modal Self-Supervised Learning for Recommendation](https://arxiv.org/pdf/2302.10632.pdf).
 
 <p align="center">
-<img src="./MMSSL.png" alt="MMSSL" />
+
 </p>
 
 MMSSL is a new multimedia recommender system MMSSL which integrates the generative modality-aware collaborative self-augmentation and the contrastive cross-modality dependency encoding. It achieves better performance than existing SOTA multi-model recommenders.
