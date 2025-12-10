@@ -1,5 +1,9 @@
 # DiffMM: Multi-Modal Diffusion Model for Recommendation
 
+![](./program flowchart1.jpg)
+![](./program flowchart2.jpg)
+
+
 This is the PyTorch implementation for **DiffMM** proposed in the paper [**DiffMM: Multi-Modal Diffusion Model for Recommendation**](https://arxiv.org/abs/2406.11781), which is accepted by ACM MM 2024 Oral.
 
 <img src="./figures/model.png" style="zoom:100%;" />
