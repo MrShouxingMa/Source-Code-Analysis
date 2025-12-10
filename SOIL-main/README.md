@@ -1,3 +1,10 @@
+Note: 在解读源码过程中发现，代码与论文公式严重不符，上传仅释放本地存储空间
+
+
+
+![](./Program flowchart.jpg)
+![](./Issue set.jpg)
+
 ## [SOIL: Contrastive Second-Order Interest Learning for Multimodal Recommendation](./paper.pdf)
 
 Hongzu Su, Jingjing Li, Fengling Li, Ke Lu, Lei Zhu 
