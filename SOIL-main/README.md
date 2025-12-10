@@ -2,8 +2,8 @@ Note: 在解读源码过程中发现，代码与论文公式严重不符，上�
 
 
 
-![](./Program flowchart.jpg)
-![](./Issue set.jpg)
+![](./program flowchart.jpg)
+![](./issue set.jpg)
 
 ## [SOIL: Contrastive Second-Order Interest Learning for Multimodal Recommendation](./paper.pdf)
 
