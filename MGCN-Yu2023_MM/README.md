@@ -1,3 +1,9 @@
+
+![](./image/program-flowchart.png)
+
+
+
+
 # MGCN: Multi-View Graph Convolutional Network for Multimedia Recommendation
 
 <!-- PROJECT LOGO -->
