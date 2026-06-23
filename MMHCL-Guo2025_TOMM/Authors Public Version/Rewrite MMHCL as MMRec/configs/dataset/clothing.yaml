@@ -1,0 +1,27 @@
+# Common Features
+USER_ID_FIELD: userID
+ITEM_ID_FIELD: itemID
+TIME_FIELD: timestamp
+
+filter_out_cod_start_users: True
+
+inter_file_name: 'clothing.inter'
+feature_dataset: 'clothing'
+
+# name of features
+vision_feature_file: 'image_feat.npy'
+text_feature_file: 'text_feat.npy'
+audio_feature_file:
+
+field_separator: "\t"
+
+#hyper_parameters
+n_ui_layers: [2]
+n_user_layers: [2]
+n_item_layers: [2]
+
+topk: [10]
+temperature: [0.4]
+regs: [1e-3]
+user_loss_ratio: [0.1]
+item_loss_ratio: [0.7]

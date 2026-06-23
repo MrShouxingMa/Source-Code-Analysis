@@ -1,0 +1,22 @@
+embedding_size: 64
+weight_size: [64, 64, 64]
+cf_model: lightgcn
+
+
+contrastive_batch_size: 4096
+
+ui_norm: sym
+u2u_norm: rw
+i2i_norm: sym
+ngcf_dropout: 0.1
+
+hyper_parameters: [
+  "n_ui_layers",
+  "n_user_layers",
+  "n_item_layers",
+  "topk",
+  "temperature",
+  "regs",
+  "user_loss_ratio",
+  "item_loss_ratio"
+]

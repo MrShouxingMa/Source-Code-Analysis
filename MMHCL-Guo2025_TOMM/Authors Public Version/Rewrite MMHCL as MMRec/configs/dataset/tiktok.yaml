@@ -1,0 +1,27 @@
+# Common Features
+USER_ID_FIELD: userID
+ITEM_ID_FIELD: itemID
+TIME_FIELD: timestamp
+
+filter_out_cod_start_users: True
+
+inter_file_name: 'tiktok.inter'
+feature_dataset: 'tiktok'
+
+# name of features
+vision_feature_file: 'image_feat.npy'
+text_feature_file: 'text_feat.npy'
+audio_feature_file: 'audio_feat.npy'
+
+field_separator: "\t"
+
+#hyper_parameters
+n_ui_layers: [2]
+n_user_layers: [3]
+n_item_layers: [2]
+
+topk: [5]
+temperature: [0.6]
+regs: [1e-3]
+user_loss_ratio: [0.03]
+item_loss_ratio: [0.07]

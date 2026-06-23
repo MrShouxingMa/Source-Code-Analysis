@@ -1,0 +1,71 @@
+# general
+use_gpu: True
+seed: [2024]
+state: info
+
+# data
+data_path: './data/'
+feature_data_path: './data/'
+inter_splitting_label: 'x_label'
+filter_out_cod_start_users: True
+is_multimodal_model: True
+sample_from_all_items: True
+
+# multi-modal raw features
+vision_feature_file: 'image_feat.npy'
+text_feature_file: 'text_feat.npy'
+audio_feature_file:
+end2end: False
+
+checkpoint_dir: 'saved'
+save_recommended_topk: True
+recommend_topk: 'recommend_topk/'
+graph_cache_path: './graph_cache/'
+
+# training settings
+#epochs: 250
+#stopping_step: 5
+#train_batch_size: 1024
+#eval_step: 5
+learner: adam
+learning_rate: 0.0001
+learning_rate_scheduler: [0.96, 50]
+weight_decay: 0.0
+req_training: True
+clip_grad_norm:
+
+
+training_neg_sample_num: 1
+use_neg_sampling: True
+use_full_sampling: False
+use_neighborhood_loss: False
+NEG_PREFIX: neg__
+
+USER_ID_FIELD: userID
+ITEM_ID_FIELD: itemID
+TIME_FIELD: timestamp
+field_separator: "\t"
+
+# evaluation settings
+metrics: ["Recall", "NDCG", "Precision", "MAP"]
+topk_eva: [10, 20]
+valid_metric: Recall@20
+eval_batch_size: 2048
+eval_type: full
+
+# iteration parameters
+hyper_parameters: ["seed"]
+
+
+# training settings
+#ori_paper
+#epochs: 250
+#stopping_step: 5
+#train_batch_size: 1024
+#eval_step: 5
+
+#Aligned MMRec--Evaluation Protocol
+epochs: 1000
+stopping_step: 20
+train_batch_size: 2048
+eval_step: 1
