@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kennethorq/SMORE">
-    <img src="./images/smore_logo.png" alt="Logo" width="400" height="200">
+    <img src="image/smore_logo.png" alt="Logo" width="400" height="200">
   </a>
 </div>
 
@@ -33,7 +33,7 @@
 This is the Pytorch implementation for our WSDM 2025 paper:
 
 >**[WSDM 2025]** Rongqing Kenneth Ong, Andy W. H Khong (2025). Spectrum-based Modality Representation Fusion Graph Convolutional Network for Multimodal Recommendation
-<img src="./images/smore_framework.png" width="900px" height="250px"/>
+<img src="image/smore_framework.png" width="900px" height="250px"/>
 
 ## Enviroment Requirement
 - Python 3.7
@@ -52,7 +52,7 @@ Other parameters can be set either through the command line or by using the conf
 
 ## Performance Comparison
 <div align="center">
-    <img src="./images/smore_results.png" width="750px" height="300px">
+    <img src="image/smore_results.png" width="750px" height="300px">
 </div>
 
 
